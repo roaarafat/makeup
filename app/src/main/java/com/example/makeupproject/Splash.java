@@ -28,10 +28,9 @@ public class Splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // الانتقال إلى MainActivity
                 Intent intent = new Intent(Splash.this, Screen.class);
                 startActivity(intent);
-                finish(); // إغلاق الشاشة الحالية
+                finish();
             }
         }, 3000);
     }

@@ -11,7 +11,7 @@ public class Screen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_screen);  // ربط التصميم الصحيح
+        setContentView(R.layout.activity_screen);
 
         Button btnLogin = findViewById(R.id.button);
         Button btnSignUp = findViewById(R.id.button2);

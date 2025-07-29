@@ -36,7 +36,7 @@
 
 
     <EditText
-        android:id="@+id/button"
+        android:id="@+id/user"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
@@ -53,7 +53,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/emailtext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
@@ -65,10 +65,10 @@
         android:layout_marginTop="30dp"
         android:textColor="@color/gray"
         android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/user" />
 
     <EditText
-        android:id="@+id/button2"
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
@@ -80,7 +80,7 @@
         android:layout_marginLeft="30dp"
         android:textColor="@color/gray"
         android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/emailtext"
         tools:layout_editor_absoluteX="44dp" />
 
     <TextView
@@ -93,7 +93,7 @@
         android:textColor="@color/gray_dark"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <Button
         android:id="@+id/button3"
