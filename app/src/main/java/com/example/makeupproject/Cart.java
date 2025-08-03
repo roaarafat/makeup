@@ -1,6 +1,5 @@
 package com.example.makeupproject;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
@@ -13,38 +12,26 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Home extends AppCompatActivity {
+public class Cart extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_home);
-
+        setContentView(R.layout.activity_cart);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-        Button pbtn= findViewById(R.id.Pbutton);
-                pbtn.setOnClickListener(v -> {
-                    Intent intent =new Intent(Home.this, Product.class);
-                    startActivity(intent);
-                });
-        TextView con_btn= findViewById(R.id.con_btn);
-        con_btn.setOnClickListener(v -> {
-            Intent intent =new Intent(Home.this, Product.class);
+        Button order= findViewById(R.id.con_order);
+        order.setOnClickListener(v -> {
+            Intent intent =new Intent(Cart.this, Delivery.class);
             startActivity(intent);
         });
         ImageView settin= findViewById(R.id.icon2);
         settin.setOnClickListener(v -> {
-            Intent intent =new Intent(Home.this, Setting.class);
-            startActivity(intent);
-        });
-        ImageView cart= findViewById(R.id.icon_cart);
-        cart.setOnClickListener(v -> {
-            Intent intent =new Intent(Home.this, Cart.class);
+            Intent intent =new Intent(Cart.this, Setting.class);
             startActivity(intent);
         });
     }

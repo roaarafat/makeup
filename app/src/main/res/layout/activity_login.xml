@@ -99,7 +99,7 @@
         android:layout_marginTop="80dp"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
-        android:backgroundTint="@color/pink"
+        android:background="@drawable/button"
         android:text="Log In"
         android:textColor="@color/white"
         android:textSize="18dp"

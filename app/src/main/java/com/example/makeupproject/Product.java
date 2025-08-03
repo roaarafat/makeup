@@ -34,5 +34,15 @@ public class Product extends AppCompatActivity {
             Intent intent =new Intent(Product.this, Setting.class);
             startActivity(intent);
         });
+        ImageView cart= findViewById(R.id.icon_cart);
+        cart.setOnClickListener(v -> {
+            Intent intent =new Intent(Product.this, Cart.class);
+            startActivity(intent);
+        });
+        Button addcart= findViewById(R.id.add_to_cart_button);
+        addcart.setOnClickListener(v -> {
+            Intent intent =new Intent(Product.this, Cart.class);
+            startActivity(intent);
+        });
     }
 }
