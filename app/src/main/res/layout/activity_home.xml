@@ -57,7 +57,7 @@
         android:layout_width="368dp"
         android:layout_height="150dp"
         android:layout_marginTop="30dp"
-        android:background="@color/pink"
+        android:background="@drawable/button"
         android:layout_marginLeft="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
@@ -238,7 +238,7 @@
         android:layout_height="200dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="20dp"
-        android:background="@color/pink"
+        android:background="@drawable/button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
 
@@ -283,7 +283,7 @@
         android:layout_height="200dp"
         android:layout_marginStart="204dp"
         android:layout_marginTop="20dp"
-        android:background="@color/pink"
+        android:background="@drawable/button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
 
