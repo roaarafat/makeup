@@ -1,10 +1,12 @@
-package com.example.makeupproject;
+package com.example.makeupproject.activites;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.makeupproject.R;
 
 public class Screen extends AppCompatActivity {
 

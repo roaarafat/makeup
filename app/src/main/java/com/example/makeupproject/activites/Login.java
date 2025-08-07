@@ -1,4 +1,4 @@
-package com.example.makeupproject;
+package com.example.makeupproject.activites;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.makeupproject.R;
 
 public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {

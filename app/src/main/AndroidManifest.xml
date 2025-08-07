@@ -13,37 +13,31 @@
         android:theme="@style/Theme.MakeupProject"
         tools:targetApi="31">
         <activity
-            android:name=".Cart_item"
+            android:name=".activites.Delivery"
             android:exported="false" />
         <activity
-            android:name=".Delivery"
+            android:name=".activites.Cart"
             android:exported="false" />
         <activity
-            android:name=".Cart"
+            android:name=".activites.Setting"
             android:exported="false" />
         <activity
-            android:name=".Cart"
+            android:name=".activites.Product"
             android:exported="false" />
         <activity
-            android:name=".Setting"
+            android:name=".activites.Home"
             android:exported="false" />
         <activity
-            android:name=".Product"
+            android:name=".activites.Signup"
             android:exported="false" />
         <activity
-            android:name=".Home"
+            android:name=".activites.Screen"
             android:exported="false" />
         <activity
-            android:name=".Signup"
+            android:name=".activites.Login"
             android:exported="false" />
         <activity
-            android:name=".Screen"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
-            android:exported="false" />
-        <activity
-            android:name=".Splash"
+            android:name=".activites.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,9 +45,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+
     </application>
 
 </manifest>
